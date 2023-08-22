@@ -15,8 +15,8 @@ const ProductCard: CardComponent<ProductProfile> = function productCard(
         </div>
       )}
       <div className="Heading Heading--sub mx-8">{profile.name}</div>
-      {profile.richTextDescription && (
-        <div className="mx-8 mt-4">{profile.richTextDescription}</div>
+      {profile.richTextDescriptionV2 && (
+        <div className="mx-8 mt-4">{profile.richTextDescriptionV2}</div>
       )}
       {profile.c_primaryCTA && (
         <div className="flex mx-8 mt-8 mb-4">

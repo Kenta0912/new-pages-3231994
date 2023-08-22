@@ -57,7 +57,7 @@ export interface SiteProfile extends BaseProfile {
 export interface ProductProfile extends BaseProfile {
   readonly name: string;
   readonly primaryPhoto: ComplexImage;
-  readonly richTextDescription: string;
+  readonly richTextDescriptionV2: string;
   readonly c_primaryCTA: CTA;
 }
 

@@ -4,7 +4,7 @@ import type { ProductProfile } from "src/types/entities";
 const defaultFields: string[] = [
   "c_featuredProductsSection.title",
   "c_featuredProductsSection.products.name",
-  "c_featuredProductsSection.products.richTextDescription",
+  "c_featuredProductsSection.products.richTextDescriptionV2",
   "c_featuredProductsSection.products.primaryPhoto",
   "c_featuredProductsSection.products.c_primaryCTA",
 ];
@@ -31,8 +31,8 @@ const FeaturedProduct = (props: FeaturedProductProps) => {
                 </div>
               )}
               <div className="Heading Heading--sub mx-8">{item.name}</div>
-              {item.richTextDescription && (
-                <div className="mx-8 mt-4">{item.richTextDescription}</div>
+              {item.richTextDescriptionV2 && (
+                <div className="mx-8 mt-4">{item.richTextDescriptionV2}</div>
               )}
               {item.c_primaryCTA && (
                 <div className="flex mx-8 mt-8 mb-4">

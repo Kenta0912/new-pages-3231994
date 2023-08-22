@@ -21,9 +21,9 @@ export const GEOLOCATE_RADIUS = 50;
 export const getSearchProvider = (apiKey: string, locale: string) =>
   provideHeadless({
     apiKey,
-    experienceKey: "<REPLACE-ME>",
+    experienceKey: "test-search",
     locale,
-    verticalKey: "<REPLACE-ME>",
-    experienceVersion: "<REPLACE-ME>",
+    verticalKey: "Locations",
+    experienceVersion: "PRODUCTION",
     // endpoints: SandboxEndpoints // Add if using a sandbox account
   });

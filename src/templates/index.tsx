@@ -84,7 +84,7 @@ export const config: TemplateConfig = {
       // FAQ Fields
       "c_faqSection.title",
       "c_faqSection.faqs.question",
-      "c_faqSection.faqs.answer",
+      "c_faqSection.faqs.answerV2",
       // Gallery Fields
       "c_gallerySection",
       "photoGallery",
@@ -108,7 +108,7 @@ export const config: TemplateConfig = {
       // Product Fields
       "c_featuredProductsSection.title",
       "c_featuredProductsSection.products.name",
-      "c_featuredProductsSection.products.richTextDescription",
+      "c_featuredProductsSection.products.richTextDescriptionV2",
       "c_featuredProductsSection.products.primaryPhoto",
       "c_featuredProductsSection.products.c_primaryCTA",
       // Promo Fields
@@ -132,7 +132,7 @@ export const config: TemplateConfig = {
     },
     // The entity language profiles that documents will be generated for.
     localization: {
-      locales: ["en"],
+      locales: ["ja"],
       primary: false,
     },
   },
