@@ -15,7 +15,7 @@ import Nearby from "src/components/entity/Nearby";
 import Products from "src/components/entity/Products";
 import Promo from "src/components/entity/Promo";
 import Reviews from "src/components/entity/Reviews";
-import Team from "src/components/entity/Team";
+// import Team from "src/components/entity/Team";
 
 interface EntityLayoutProps {
   data: TemplateRenderProps<LocationProfile>;
@@ -36,7 +36,7 @@ const EntityLayout = ({ data }: EntityLayoutProps) => {
     c_featuredProductsSection: products,
     c_aboutSection: about,
     c_gallerySection: gallery,
-    c_teamSection: team,
+    // c_teamSection: team,
     c_faqSection: faq,
     c_nearbySection: nearby,
     c_eventsSection: events,
@@ -50,7 +50,7 @@ const EntityLayout = ({ data }: EntityLayoutProps) => {
   const showProducts = products?.title && products?.products;
   const showAbout = about?.title && (about.description || description);
   const showGallery = gallery?.images || photoGallery;
-  const showTeam = team?.title && team?.team;
+  // const showTeam = team?.title && team?.team;
   const showFAQ = faq?.title && faq?.faqs;
   const showEvents = events?.title && events.events;
   const showInsights = insights?.title && insights?.insights;
@@ -135,11 +135,11 @@ const EntityLayout = ({ data }: EntityLayoutProps) => {
           />
         </ErrorBoundaryWithAnalytics>
       )}
-      {showTeam && (
+      {/* {showTeam && (
         <ErrorBoundaryWithAnalytics name="team">
           <Team title={team.title} team={team.team} initialSize={3} />
         </ErrorBoundaryWithAnalytics>
-      )}
+      )} */}
       {showFAQ && (
         <ErrorBoundaryWithAnalytics name="faqs">
           <FAQs title={faq.title} faqs={faq.faqs} />
