@@ -164,10 +164,10 @@ export interface LocationProfile extends BaseProfile {
     readonly image?: Image;
     readonly cta?: CTA;
   };
-  readonly c_teamSection?: {
-    readonly title?: string;
-    readonly team?: FinancialProfessionalProfile[];
-  };
+  // readonly c_teamSection?: {
+  //   readonly title?: string;
+  //   readonly team?: FinancialProfessionalProfile[];
+  // };
   readonly c_faqSection?: {
     readonly title?: string;
     readonly faqs?: FAQProfile[];

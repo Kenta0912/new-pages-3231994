@@ -139,10 +139,10 @@
 	"c_reviewsSection": {
 		"title": "Recent Reviews"
 	},
-	"c_teamSection": {
-		"team": [],
-		"title": "Meet Our Team"
-	},
+	// "c_teamSection": {
+	// 	"team": [],
+	// 	"title": "Meet Our Team"
+	// },
 	"dm_directoryParents": [],
 	"emails": [
 		"email@gmail.com"

@@ -117,14 +117,14 @@ export const config: TemplateConfig = {
       "c_reviewsSection",
       "ref_reviewsAgg.reviewCount", // This is required in order to update the stream every time a new review is created.
       // Team Fields
-      "c_teamSection.title",
-      "c_teamSection.team.id",
-      "c_teamSection.team.name",
-      "c_teamSection.team.headshot",
-      "c_teamSection.team.mainPhone",
-      "c_teamSection.team.c_occupation",
-      "c_teamSection.team.emails",
-      "c_teamSection.team.websiteUrl",
+      // "c_teamSection.title",
+      // "c_teamSection.team.id",
+      // "c_teamSection.team.name",
+      // "c_teamSection.team.headshot",
+      // "c_teamSection.team.mainPhone",
+      // "c_teamSection.team.c_occupation",
+      // "c_teamSection.team.emails",
+      // "c_teamSection.team.websiteUrl",
     ]),
     // Defines the scope of entities that qualify for this stream.
     filter: {

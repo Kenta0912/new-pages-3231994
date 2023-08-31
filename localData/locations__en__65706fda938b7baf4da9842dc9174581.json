@@ -249,31 +249,31 @@
 	"c_reviewsSection": {
 		"title": "Recent Reviews"
 	},
-	"c_teamSection": {
-		"team": [
-			{
-				"c_occupation": "Job Title",
-				"emails": [
-					"professional@example.com"
-				],
-				"headshot": {
-					"alternateText": "test",
-					"height": 830,
-					"url": "http://a.mktgcdn.com/p/7WOgS52NNSiswLNzTN70J-VbCOEM75eS4HhINXOia2U/1.0000/830x830.jpg",
-					"width": 830
-				},
-				"id": "test-professional",
-				"mainPhone": "+12129943900",
-				"name": "Test Professional",
-				"websiteUrl": {
-					"displayUrl": "https://www.yext.com/",
-					"preferDisplayUrl": false,
-					"url": "https://www.yext.com/"
-				}
-			}
-		],
-		"title": "Meet Our Team"
-	},
+	// "c_teamSection": {
+	// 	"team": [
+	// 		{
+	// 			"c_occupation": "Job Title",
+	// 			"emails": [
+	// 				"professional@example.com"
+	// 			],
+	// 			"headshot": {
+	// 				"alternateText": "test",
+	// 				"height": 830,
+	// 				"url": "http://a.mktgcdn.com/p/7WOgS52NNSiswLNzTN70J-VbCOEM75eS4HhINXOia2U/1.0000/830x830.jpg",
+	// 				"width": 830
+	// 			},
+	// 			"id": "test-professional",
+	// 			"mainPhone": "+12129943900",
+	// 			"name": "Test Professional",
+	// 			"websiteUrl": {
+	// 				"displayUrl": "https://www.yext.com/",
+	// 				"preferDisplayUrl": false,
+	// 				"url": "https://www.yext.com/"
+	// 			}
+	// 		}
+	// 	],
+	// 	"title": "Meet Our Team"
+	// },
 	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus placerat justo a viverra. Quisque ut congue tellus, vitae fermentum velit. Suspendisse sed gravida libero. Etiam pulvinar tincidunt augue vitae fermentum. Maecenas tortor nunc, ullamcorper eu tortor sed, vestibulum suscipit libero. \\nPraesent sit amet pulvinar massa. Proin mattis tellus tristique neque ullamcorper, vel vestibulum lorem dapibus. Vivamus et magna in justo posuere imperdiet sit amet amour tellus.",
 	"dm_directoryParents": [
 		{
